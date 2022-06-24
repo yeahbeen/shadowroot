@@ -2,6 +2,7 @@
 const injectedScript = document.createElement('script');
 injectedScript.src = chrome.extension.getURL('injected.js');
 (document.head || document.documentElement).appendChild(injectedScript);
+/*
 //接收popup的消息，并发送到inject script
 console.log("in content script")
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
@@ -13,3 +14,4 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
     }
 })
 chrome.storage.local.set({'state': 'start'})
+*/

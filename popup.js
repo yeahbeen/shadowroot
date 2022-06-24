@@ -1,3 +1,4 @@
+/*
 (function(){
     //获取当前状态
     chrome.storage.local.get('state',(data) => {
@@ -39,3 +40,5 @@
         })        
     })
 })();
+
+*/
